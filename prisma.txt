@@ -1,0 +1,6 @@
+npm i -D prisma @prisma/client
+
+npx prisma migrate dev --name init --create-only //Create A migration sql
+
+npx prisma migrate deploy // Migrate all existing/updated migration to db
+
